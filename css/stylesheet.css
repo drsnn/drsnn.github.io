@@ -93,6 +93,14 @@ LISTS
     width: 92%;
 }
 
+.Svenska h3 {
+    background-color: #00ff00;
+}
+
+.Svenska a:hover {
+    color: ##00ff00;
+}
+
 .reddit h3 {
     background-color: #81A1C1;
 }
