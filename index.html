@@ -17,6 +17,15 @@
     </header>
     <div class="wrapper">
       <section class="main">
+       
+        <section class="search">
+          <form id="searchbar" action="https://google.com/search" autocomplete="on" oninput="suggest()" class="searchbox">>
+            <input id="searchInput" autofocus autocomplete="on" placeholder="search something" spellcheck="false" value="search" name="q">
+          </form>
+          <div id="suggestions"></div>
+        </section>
+        
+        
         <section class="svenska">
           <h3>svenska</h3>
           <ul id="svenska">
@@ -69,12 +78,7 @@
             <li><a href="https://web.whatsapp.com/">whatsapp</a></li>
           </ul>
         </section>
-        <section class="search">
-          <form id="searchbar" action="https://google.com/search" autocomplete="on" oninput="suggest()" class="searchbox">>
-            <input id="searchInput" autofocus autocomplete="on" placeholder="search something" spellcheck="false" value="search" name="q">
-          </form>
-          <div id="suggestions"></div>
-        </section>
+        
       </section>
       <footer>
       </footer>
