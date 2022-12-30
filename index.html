@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Home</title>
     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Mono:400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet.css">
@@ -69,10 +70,10 @@
           </ul>
         </section>
         <section class="search">
-          <form action="https://www.duckduckgo.com/" method="get">
-            <input type="search"  autofocus autocomplete="on" placeholder="search something" name="q" class="searchbox">
-            <input type="submit" value="search" style="display:none;">
+          <form id="searchbar" action="https://google.com/search" autocomplete="off" oninput="suggest()">
+            <input id="searchInput" type="search" spellcheck="false" name="q">
           </form>
+          <div id="suggestions"></div>
         </section>
       </section>
       <footer>
@@ -151,5 +152,5 @@
     </script>
 
   </body>
-
+<script src="suggestions.js"></script>
 </html>
