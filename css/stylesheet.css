@@ -139,8 +139,8 @@ SEARCH
 ****************/
 
 .searchbox {
-    width: 150%;
-    padding: 30px;
+    width: 100%;
+    padding: 15px;
     background-color: #434C5E;
     color: #F0EEE3;
     border: none;
