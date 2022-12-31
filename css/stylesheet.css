@@ -138,16 +138,29 @@ LISTS
 SEARCH
 ****************/
 
-.searchbox {
+#search {
     width: 100%;
-    padding: 15px;
-    background-color: #434C5E;
-    color: #F0EEE3;
-    border: none;
-    font-family: 'Roboto Mono', monospace;
-    transition: 0.2s;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
 }
 
-.searchbox:focus {
-    background-color: #84408F;
+#searchbar {
+    border: 0;
+    border-radius: var(--bdradius);
+    display: flex;
+    background-color: var(--secBg);
+    height: 50px;
+    padding: 2px;
+    padding-left: 20px;
 }
+
+#searchInput {
+    width: 100%;
+    flex-grow: 2;
+    border: none;
+    background-color: transparent;
+    font-size: 1.1em;
+    color: inherit;
+}
+
