@@ -90,7 +90,7 @@ LISTS
 }
 
 .main .search {
-    width: 100%;
+    width: 90%;
 }
 
 .svenska h3 {
@@ -151,8 +151,8 @@ SEARCH
     display: flex;
     background-color: var(--secBg);
     height: 50px;
-    padding: 2px;
-    padding-left: 20px;
+    padding: 10px;
+    padding-left: 40px;
 }
 
 #searchInput {
