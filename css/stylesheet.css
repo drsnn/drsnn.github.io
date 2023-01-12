@@ -125,6 +125,16 @@ LISTS
     color: #A3BE8C;
 }
 
+
+.konto h3 {
+    background-color: #751a3a;
+}
+
+.konto a:hover {
+    color: #751a3a;
+}
+
+
 .general h3 {
     background-color: #D08770;
 }
